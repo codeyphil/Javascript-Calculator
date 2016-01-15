@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link href='https://fonts.googleapis.com/css?family=Kelly+Slab' rel='stylesheet' type='text/css'>
+<link href = 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+<link href="main.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+<div class="container-fluid">
+    
+  <div class="calculator-shell">
+   <div class="calc-heading">
+    <h5>Free Code Camp</h5>
+    <p>Electronic Calculator</p>
+   </div>
+   <div class="window">
+    <p id="calc-window"></p>  
+   </div>
+  <div class="input-rows">
+   <div class="first-row">
+    <ul>
+     <button type="button" data-clearer="clearer">AC</button>
+     <button type="button" data-clear="clear">CE</button>
+     <button type="button" data-action="operation" data-percent="percent">%</button>
+     <button type="button" data-action="operation" data-divide="divide">/</button>
+    </ul>
+   </div>
+   <div class="second-row">
+    <ul>
+     <button type="button" data-action="number" data-value="7">7</button>
+     <button type="button" data-action="number" data-value="8">8</button>
+     <button type="button" data-action="number" data-value="9">9</button>
+     <button type="button" data-action="operation" data-multiply="multiply">X</button>
+    </ul>
+   </div>
+   <div class="third-row">
+    <ul>
+     <button type="button" data-action="number" data-value="4">4</button>
+     <button type="button" data-action="number" data-value="5">5</button>
+     <button type="button" data-action="number" data-value="6">6</button>
+     <button type="button" data-action="operation" data-subtract="subtract">-</button>  
+    </ul>
+   </div>
+   <div class="fourth-row">
+    <ul>
+     <button type="button" data-action="number" data-value="1">1</button>
+     <button type="button" data-action="number" data-value="2">2</button>
+     <button type="button" data-action="number" data-value="3">3</button>
+    </ul>
+   </div>
+   <div class="bottom-row">
+    <ul>
+     <button type="button" data-action="number" data-value="0">0</button>
+     <button type="button" data-action = "number" data-decimal="decimal">.</button>
+     <button type="button" data-action="operation" data-equals="equals">=</button>
+     <button type="button" data-action="operation" data-add="add">+</button>   
+    </ul>
+   </div>
+  </div>
+ </div>
+</div>
+    
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    
+<script type="text/javascript" src="calculator.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,148 @@
+body {
+background-image: url('http://wallpapercave.com/wp/I2fII8e.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-y: hidden;
+}
+
+.calculator-shell {
+    position: relative;
+    top: 2.5em;
+    margin: auto;
+    text-align: center;
+    width: 20em;
+    height: 28em;
+    background-color: #DBDBDB;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 2.5%;
+    border-bottom-right-radius: 2.5%;
+    box-shadow: 0px 0px 20px rgba(92, 92, 92, 0.8);
+}
+
+h5 {
+    font-size: 25px;
+    position: relative;
+    top: 10px;
+    font-family: 'Kelly Slab', cursive;
+    font-weight: bold;
+    color: #095e75;
+}
+
+.calc-heading p {
+ position: relative;
+ top: 2.5px;
+font-family: 'Kelly Slab', cursive;
+font-style: italic;
+}
+
+.window {
+ background-color: #9AA69C;
+ margin: auto;
+ width: 90%;
+ height: 3em;
+    margin-bottom: .5em;
+border-radius: 5px;
+}
+
+.window p {
+ float: right;   
+ margin-right: .5em;
+ position: relative;
+ top: 3px;
+ font-size: 25px;
+ color: #095e75;
+}
+
+.first-row ul, .second-row ul, .third-row ul, .fourth-row ul, .bottom-row ul {
+    float: left;
+    clear: left;
+    margin-left: -1.55em;
+}
+
+.first-row ul {
+ margin-top: 15px;   
+}
+
+ul button {
+    margin-left: 4px;
+    margin-right: 4px;
+    width: 50px;
+    height: 40px;
+    position: relative;
+    border: 0;
+    border-radius: 10px;
+    font-size: 18px;
+    box-shadow: 0px 0px 10px rgba(92, 92, 92, 0.8);
+    font-weight: bold;
+}
+
+[data-action=number], [data-clear], [data-decimal] {
+    background-color: #CCCCCC;
+}
+
+[data-action=number]:active, [data-clear]:active, [data-decimal]:active {
+    background: rgba(204,204,204,0.84);
+background: -moz-linear-gradient(left, rgba(204,204,204,0.84) 0%, rgba(204,204,204,0.85) 0%, rgba(204,204,204,0.85) 50%, rgba(204,204,204,0.85) 88%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(204,204,204,0.84)), color-stop(0%, rgba(204,204,204,0.85)), color-stop(50%, rgba(204,204,204,0.85)), color-stop(88%, rgba(204,204,204,0.85)));
+background: -webkit-linear-gradient(left, rgba(204,204,204,0.84) 0%, rgba(204,204,204,0.85) 0%, rgba(204,204,204,0.85) 50%, rgba(204,204,204,0.85) 88%);
+background: -o-linear-gradient(left, rgba(204,204,204,0.84) 0%, rgba(204,204,204,0.85) 0%, rgba(204,204,204,0.85) 50%, rgba(204,204,204,0.85) 88%);
+background: -ms-linear-gradient(left, rgba(204,204,204,0.84) 0%, rgba(204,204,204,0.85) 0%, rgba(204,204,204,0.85) 50%, rgba(204,204,204,0.85) 88%);
+background: linear-gradient(to right, rgba(204,204,204,0.84) 0%, rgba(204,204,204,0.85) 0%, rgba(204,204,204,0.85) 50%, rgba(204,204,204,0.85) 88%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#cccccc', GradientType=1 );
+}
+
+[data-action=operation] {
+    background-color: #095e75;
+    color: #dedede;
+    box-shadow: 0px 0px 10px rgba(92, 92, 92, 1);
+}
+
+[data-action=operation]:active {
+    background: rgba(9,94,117,0.94);
+background: -moz-linear-gradient(left, rgba(9,94,117,0.94) 0%, rgba(9,94,117,0.95) 0%, rgba(9,94,117,0.95) 50%, rgba(9,94,117,0.95) 88%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(9,94,117,0.94)), color-stop(0%, rgba(9,94,117,0.95)), color-stop(50%, rgba(9,94,117,0.95)), color-stop(88%, rgba(9,94,117,0.95)));
+background: -webkit-linear-gradient(left, rgba(9,94,117,0.94) 0%, rgba(9,94,117,0.95) 0%, rgba(9,94,117,0.95) 50%, rgba(9,94,117,0.95) 88%);
+background: -o-linear-gradient(left, rgba(9,94,117,0.94) 0%, rgba(9,94,117,0.95) 0%, rgba(9,94,117,0.95) 50%, rgba(9,94,117,0.95) 88%);
+background: -ms-linear-gradient(left, rgba(9,94,117,0.94) 0%, rgba(9,94,117,0.95) 0%, rgba(9,94,117,0.95) 50%, rgba(9,94,117,0.95) 88%);
+background: linear-gradient(to right, rgba(9,94,117,0.94) 0%, rgba(9,94,117,0.95) 0%, rgba(9,94,117,0.95) 50%, rgba(9,94,117,0.95) 88%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#095e75', endColorstr='#095e75', GradientType=1 );
+}
+
+[data-clearer] {
+    background-color: #F21111;
+    opacity: .9;
+    color: #dedede;
+}
+
+[data-clearer]:active {
+    background: rgba(242,17,17,0.89);
+background: -moz-linear-gradient(left, rgba(242,17,17,0.89) 0%, rgba(242,17,17,0.9) 0%, rgba(242,17,17,0.9) 50%, rgba(242,17,17,0.9) 88%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(242,17,17,0.89)), color-stop(0%, rgba(242,17,17,0.9)), color-stop(50%, rgba(242,17,17,0.9)), color-stop(88%, rgba(242,17,17,0.9)));
+background: -webkit-linear-gradient(left, rgba(242,17,17,0.89) 0%, rgba(242,17,17,0.9) 0%, rgba(242,17,17,0.9) 50%, rgba(242,17,17,0.9) 88%);
+background: -o-linear-gradient(left, rgba(242,17,17,0.89) 0%, rgba(242,17,17,0.9) 0%, rgba(242,17,17,0.9) 50%, rgba(242,17,17,0.9) 88%);
+background: -ms-linear-gradient(left, rgba(242,17,17,0.89) 0%, rgba(242,17,17,0.9) 0%, rgba(242,17,17,0.9) 50%, rgba(242,17,17,0.9) 88%);
+background: linear-gradient(to right, rgba(242,17,17,0.89) 0%, rgba(242,17,17,0.9) 0%, rgba(242,17,17,0.9) 50%, rgba(242,17,17,0.9) 88%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f21111', endColorstr='#f21111', GradientType=1 );
+}
+
+[data-equals] {
+    background-color: #095E75;
+    background-color: rgba(9, 94, 117, 1);
+    color: #dedede;
+}
+
+[data-clear] {
+    background-color: #C9C7C7;
+}
+
+ul button:focus {
+    outline: 0 none;   
+}
+
+.bottom-row button:last-child {
+    height: 5em;
+    margin-top: -2em;
+    bottom: 1.3em;
+}
